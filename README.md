@@ -8,3 +8,8 @@ Key features of the app include:
 > Send/share your recordings easily using email or your favorite app
 > Free to download and share
 > Simple and easy to use UI
+
+# Tools and Technology
+
+Androoid Studio
+JAVA
