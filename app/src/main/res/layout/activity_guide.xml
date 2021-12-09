@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+
+                android:id="@+id/card_view2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                card_view:cardCornerRadius="@dimen/cardRadius_8dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="0,1,2,3,4">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/zero_dp"
+                            android:layout_weight="1"
+                            android:background="@color/md_white_1000">
+
+                            <TextView
+                                android:id="@+id/zero"
+                                style="@style/light_background"
+                                android:layout_column="0"
+                                android:text="@string/num0" />
+
+                            <TextView
+                                android:id="@+id/one"
+                                style="@style/dark_background"
+                                android:layout_column="1"
+                                android:text="@string/num1" />
+
+                            <TextView
+                                android:id="@+id/two"
+                                style="@style/light_background"
+                                android:layout_column="2"
+                                android:text="@string/num2" />
+
+                            <TextView
+                                android:id="@+id/three"
+                                style="@style/dark_background"
+                                android:layout_column="3"
+                                android:text="@string/num3" />
+
+                            <TextView
+                                android:id="@+id/four"
+                                style="@style/light_background"
+                                android:layout_column="4"
+                                android:text="@string/num4" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/zero_dp"
+                            android:layout_weight="1"
+                            android:background="@color/md_white_1000">
+
+                            <TextView
+                                android:id="@+id/five"
+                                style="@style/dark_background"
+                                android:layout_column="0"
+                                android:text="@string/num5" />
+
+                            <TextView
+                                android:id="@+id/six"
+                                style="@style/light_background"
+                                android:layout_column="1"
+                                android:text="@string/num6" />
+
+                            <TextView
+                                android:id="@+id/seven"
+                                style="@style/dark_background"
+                                android:layout_column="2"
+                                android:text="@string/num7" />
+
+                            <TextView
+                                android:id="@+id/eight"
+                                style="@style/light_background"
+                                android:layout_column="3"
+                                android:text="@string/num8" />
+
+                            <TextView
+                                android:id="@+id/nine"
+                                style="@style/dark_background"
+                                android:layout_column="4"
+                                android:text="@string/num9" />
+                        </TableRow>
+
+                    </TableLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                card_view:cardCornerRadius="@dimen/cardRadius_8dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="0,1,2,3,4">
+
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/zero_dp"
+                            android:layout_weight="1"
+                            android:background="@color/md_white_1000">
+
+                            <TextView
+                                android:id="@+id/a"
+                                style="@style/light_background"
+                                android:layout_column="0"
+                                android:text="@string/A" />
+
+                            <TextView
+                                android:id="@+id/b"
+                                style="@style/dark_background"
+                                android:layout_column="1"
+                                android:text="@string/B" />
+
+                            <TextView
+                                android:id="@+id/c"
+                                style="@style/light_background"
+                                android:layout_column="2"
+                                android:text="@string/C" />
+
+                            <TextView
+                                android:id="@+id/d"
+                                style="@style/dark_background"
+                                android:layout_column="3"
+                                android:text="@string/D" />
+
+                            <TextView
+                                android:id="@+id/e"
+                                style="@style/light_background"
+                                android:layout_column="4"
+                                android:text="@string/E" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/zero_dp"
+                            android:layout_weight="1"
+                            android:background="@color/md_white_1000">
+
+                            <TextView
+                                android:id="@+id/f"
+                                style="@style/dark_background"
+                                android:layout_column="0"
+                                android:text="@string/F" />
+
+                            <TextView
+                                android:id="@+id/g"
+                                style="@style/light_background"
+                                android:layout_column="1"
+                                android:text="@string/G" />
+
+                            <TextView
+                                android:id="@+id/h"
+                                style="@style/dark_background"
+                                android:layout_column="2"
+                                android:text="@string/H" />
+
+                            <TextView
+                                android:id="@+id/i"
+                                style="@style/light_background"
+                                android:layout_column="3"
+                                android:text="@string/I" />
+
+                            <TextView
+                                android:id="@+id/j"
+                                style="@style/dark_background"
+                                android:layout_column="4"
+                                android:text="@string/J" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/zero_dp"
+                            android:layout_weight="1"
+                            android:background="@color/md_white_1000">
+
+                            <TextView
+                                android:id="@+id/k"
+                                style="@style/light_background"
+                                android:layout_column="0"
+                                android:text="@string/K" />
+
+                            <TextView
+                                android:id="@+id/l"
+                                style="@style/dark_background"
+                                android:layout_column="1"
+                                android:text="@string/L" />
+
+                            <TextView
+                                android:id="@+id/m"
+                                style="@style/light_background"
+                                android:layout_column="2"
+                                android:text="@string/M" />
+
+                            <TextView
+                                android:id="@+id/n"
+                                style="@style/dark_background"
+                                android:layout_column="3"
+                                android:text="@string/N" />
+
+                            <TextView
+                                android:id="@+id/o"
+                                style="@style/light_background"
+                                android:layout_column="4"
+                                android:text="@string/O" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/zero_dp"
+                            android:layout_weight="1"
+                            android:background="@color/md_white_1000">
+
+                            <TextView
+                                android:id="@+id/p"
+                                style="@style/dark_background"
+                                android:layout_column="0"
+                                android:text="@string/P" />
+
+                            <TextView
+                                android:id="@+id/q"
+                                style="@style/light_background"
+                                android:layout_column="1"
+                                android:text="@string/Q" />
+
+                            <TextView
+                                android:id="@+id/r"
+                                style="@style/dark_background"
+                                android:layout_column="2"
+                                android:text="@string/R" />
+
+                            <TextView
+                                android:id="@+id/s"
+                                style="@style/light_background"
+                                android:layout_column="3"
+                                android:text="@string/S" />
+
+                            <TextView
+                                android:id="@+id/t"
+                                style="@style/dark_background"
+                                android:layout_column="4"
+                                android:text="@string/T" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/zero_dp"
+                            android:layout_weight="1"
+                            android:background="@color/md_white_1000">
+
+                            <TextView
+                                android:id="@+id/u"
+                                style="@style/light_background"
+                                android:layout_column="0"
+                                android:text="@string/U" />
+
+                            <TextView
+                                android:id="@+id/v"
+                                style="@style/dark_background"
+                                android:layout_column="1"
+                                android:text="@string/V" />
+
+                            <TextView
+                                android:id="@+id/w"
+                                style="@style/light_background"
+                                android:layout_column="2"
+                                android:text="@string/W" />
+
+                            <TextView
+                                android:id="@+id/x"
+                                style="@style/dark_background"
+                                android:layout_column="3"
+                                android:text="@string/X" />
+
+                            <TextView
+                                android:id="@+id/y"
+                                style="@style/light_background"
+                                android:layout_column="4"
+                                android:text="@string/Y" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/zero_dp"
+                            android:layout_weight="1"
+                            android:background="@color/md_white_1000">
+
+                            <TextView
+                                android:id="@+id/z"
+                                style="@style/dark_background"
+                                android:layout_column="0"
+                                android:text="@string/Z" />
+
+                            <TextView
+                                style="@style/light_background"
+                                android:layout_column="1"
+                                android:text="" />
+
+                            <TextView
+
+                                android:layout_column="2"
+                                style="@style/light_background"
+                                android:text=""
+                                 />
+
+                            <TextView
+                                style="@style/light_background"
+                                android:layout_column="3"
+                                android:text="" />
+
+                            <TextView
+                                android:layout_column="4"
+                                android:text=""
+                                style="@style/light_background" />
+                        </TableRow>
+
+
+                    </TableLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:id="@+id/card_view3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                card_view:cardCornerRadius="@dimen/cardRadius_8dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TableLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="0,1,2,3,4">
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/zero_dp"
+                            android:layout_weight="1"
+                            android:background="@color/md_white_1000">
+
+                            <TextView
+                                android:id="@+id/dot"
+                                style="@style/light_background"
+                                android:layout_column="0"
+                                android:text="@string/dot" />
+
+                            <TextView
+                                android:id="@+id/colon"
+                                style="@style/dark_background"
+                                android:layout_column="1"
+                                android:text="@string/colon" />
+
+                            <TextView
+                                android:id="@+id/comma"
+                                style="@style/light_background"
+                                android:layout_column="2"
+                                android:text="@string/comma" />
+
+                            <TextView
+                                android:id="@+id/semicolon"
+                                style="@style/dark_background"
+                                android:layout_column="3"
+                                android:text="@string/semicolon" />
+
+                            <TextView
+                                android:id="@+id/questionmark"
+                                style="@style/light_background"
+                                android:layout_column="4"
+                                android:text="@string/question_mark" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="fill_parent"
+                            android:layout_height="@dimen/zero_dp"
+                            android:layout_weight="1"
+                            android:background="@color/md_white_1000">
+
+                            <TextView
+                                android:id="@+id/equals"
+                                style="@style/dark_background"
+                                android:layout_column="0"
+                                android:text="@string/equals" />
+
+                            <TextView
+                                android:id="@+id/appos"
+                                style="@style/light_background"
+                                android:layout_column="1"
+                                android:text="@string/single_quote" />
+
+                            <TextView
+                                android:id="@+id/slash"
+                                style="@style/dark_background"
+                                android:layout_column="2"
+                                android:text="@string/slash" />
+
+                            <TextView
+                                android:id="@+id/exclamation"
+                                style="@style/light_background"
+                                android:layout_column="3"
+                                android:text="@string/exclamation_mark" />
+
+                            <TextView
+                                android:id="@+id/dash"
+                                style="@style/dark_background"
+                                android:layout_column="4"
+                                android:text="@string/dash" />
+                        </TableRow>
+
+                    </TableLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

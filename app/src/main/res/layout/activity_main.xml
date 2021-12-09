@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_dp"
+        android:layout_weight="1"
+        android:background="@color/md_white_1000"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/main_tv_title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/md_white_1000"
+            android:paddingLeft="@dimen/padding_10dp"
+            android:text="@string/your_text"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/main_et_convert"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorLayoutBackground"
+                android:gravity="top"
+                android:hint="@string/enter_string"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="30dp"
+                android:textAppearance="@android:style/TextAppearance.Large" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_minus_30dp"
+            android:paddingLeft="@dimen/padding_20dp">
+
+            <Button
+                android:id="@+id/main_btn_share"
+                android:layout_width="@dimen/layout_55dp"
+                android:layout_height="@dimen/layout_55dp"
+                android:elevation="@dimen/elevation_5dp"
+                android:background="@mipmap/ic_share"
+                android:gravity="right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_minus_52dp"
+            android:paddingLeft="@dimen/padding_80dp">
+
+            <ImageView
+                android:id="@+id/main_btn_copy"
+                android:layout_width="@dimen/layout_50dp"
+                android:layout_height="@dimen/layout_50dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:layout_marginBottom="@dimen/padding_10dp"
+                android:elevation="@dimen/elevation_5dp"
+                android:background="@drawable/round_button"
+                android:gravity="left"
+                android:src="@mipmap/ic_copy" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_minus_62dp"
+            android:layout_gravity="center"
+            android:elevation="@dimen/elevation_5dp"
+            >
+
+            <Button
+                android:id="@+id/main_btn_clear"
+                android:layout_width="@dimen/layout_55dp"
+                android:layout_height="@dimen/layout_55dp"
+                android:elevation="@dimen/elevation_5dp"
+                android:background="@mipmap/ic_clear"
+                android:gravity="right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/margin_minus_55dp"
+            android:orientation="horizontal"
+            android:elevation="@dimen/elevation_5dp"
+            android:paddingTop="@dimen/padding_minus_10dp"
+            android:paddingRight="@dimen/padding_75dp">
+
+            <Button
+                android:id="@+id/main_btn_play"
+                android:layout_width="@dimen/layout_55dp"
+                android:layout_height="@dimen/layout_55dp"
+                android:elevation="@dimen/elevation_5dp"
+                android:background="@mipmap/ic_play"
+                android:gravity="right" />
+
+            <Button
+                android:id="@+id/main_btn_pause"
+                android:layout_width="@dimen/layout_55dp"
+                android:layout_height="@dimen/layout_55dp"
+                android:elevation="@dimen/elevation_5dp"
+                android:background="@mipmap/ic_pause"
+                android:gravity="right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/margin_minus_52dp">
+
+            <ImageView
+                android:id="@+id/main_btn_toMorse"
+                android:layout_width="@dimen/layout_50dp"
+                android:layout_height="@dimen/layout_50dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:layout_marginBottom="@dimen/padding_10dp"
+                android:elevation="@dimen/elevation_5dp"
+                android:background="@drawable/round_button"
+                android:gravity="right"
+                android:src="@mipmap/ic_swap2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/main_tv_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/md_white_1000"
+            android:paddingLeft="@dimen/padding_10dp"
+            android:text="@string/morse_code"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_tv_result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorLayoutBackground"
+                android:paddingLeft="@dimen/padding_5dp"
+                android:paddingTop="@dimen/padding_5dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.aswdc_morsecode.activity.MyKeyboard
+        android:id="@+id/keyboard1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

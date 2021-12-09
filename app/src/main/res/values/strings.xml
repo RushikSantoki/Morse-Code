@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Morse Code</string>
+    <string name="btn_convert">Convert</string>
+    <string name="btn_swap">Swap</string>
+    <string name="morse_keyboard">Morse Code Keyboard</string>
+    <string name="A">A, a\n.-</string>
+    <string name="B">B, b\n-...</string>
+    <string name="C">C, c\n-.-.</string>
+    <string name="D">D, d\n-..</string>
+    <string name="E">E, e\n.</string>
+    <string name="F">F, f\n..-.</string>
+    <string name="G">G, g\n--.</string>
+    <string name="H">H, h\n....</string>
+    <string name="I">I, i\n..</string>
+    <string name="J">J, j\n.---</string>
+    <string name="K">K, k\n-.-</string>
+    <string name="L">L, l\n.-..</string>
+    <string name="M">M, m\n--</string>
+    <string name="N">N, n\n-.</string>
+    <string name="O">O, o\n---</string>
+    <string name="P">P, p\n.--.</string>
+    <string name="Q">Q, q\n--.-</string>
+    <string name="R">R, r\n.-.</string>
+    <string name="S">S, s\n...</string>
+    <string name="T">T, t\n-</string>
+    <string name="U">U, u\n..-</string>
+    <string name="V">V, v\n...-</string>
+    <string name="W">W, w\n.--</string>
+    <string name="X">X, x\n-..-</string>
+    <string name="Y">Y, y\n-.--</string>
+    <string name="Z">Z, z\n--..</string>
+    <string name="num0">0\n-----</string>
+    <string name="num1">1\n.----</string>
+    <string name="num2">2\n..---</string>
+    <string name="num3">3\n...--</string>
+    <string name="num4">4\n....-</string>
+    <string name="num5">5\n.....</string>
+    <string name="num6">6\n-....</string>
+    <string name="num7">7\n--...</string>
+    <string name="num8">8\n---..</string>
+    <string name="num9">9\n----.</string>
+    <string name="dot">.\n.-.-.-</string>
+    <string name="colon">:\n---...</string>
+    <string name="comma">,\n--..--</string>
+    <string name="semicolon">;\n-.-.-.</string>
+    <string name="question_mark">\?\n..--..</string>
+    <string name="equals">=\n-...-</string>
+    <string name="single_quote">\'\n.----.</string>
+    <string name="slash">/\n-..-.</string>
+    <string name="exclamation_mark">!\n-.-.--</string>
+    <string name="dash">-\n-....-</string>
+
+    <string name="morse_code">Morse Code</string>
+    <string name="MORSE_CODE">MORSE CODE:</string>
+    <string name="YOUR_TEXT">YOUR TEXT:</string>
+    <string name="your_text">Your Text</string>
+    <string name="copied">Copied!</string>
+    <string name="enter_string">Enter String Here</string>
+    <string name="morse_button">Morse</string>
+    <string name="alpha_button">Alpha</string>
+    <string name="error_exit">Press once again to exit</string>
+    <string name="inst_name"> Darshan Institute of Engineering &amp; Technology</string>
+    <string name="error_message_internet_connection">Internet connection is not active</string>
+    <string name="validation_message_both_station_same"><![CDATA[Source & Destination can\'t be same]]></string>
+    <string name="bmrcl_address">3rd Floor, BMTC Complex, K.H.Road, Shanthinagar, Bangalore- 560 027.</string>
+
+    <string name="tost_entervaliddata">Please Enter Data!!!</string>
+
+    <string name="developerName">Rushik D. Santoki (160540107129)</string>
+    <string name="mentoredBy">Dr. Nilesh Gambhava , Computer Engineering Department</string>
+    <string name="contectUsNo">+91-97277-47317</string>
+
+</resources>

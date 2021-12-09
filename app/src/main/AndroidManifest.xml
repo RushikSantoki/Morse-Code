@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aswdc_morsecode">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_morse"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_morse"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".design.ActivitySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name=".activity.Guide"
+            android:label="Morse Guide"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.Guide" />
+        </activity>
+        <activity
+            android:name=".design.ActivityFeedback"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".design.DeveloperActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ae5de019a851cee96696a4c7c019c214d1629e6c" />
+    </application>
+
+</manifest>
