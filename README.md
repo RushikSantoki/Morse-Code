@@ -11,5 +11,5 @@ Key features of the app include:
 
 # Tools and Technology
 
-Androoid Studio
+Android Studio
 JAVA
